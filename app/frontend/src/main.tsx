@@ -34,3 +34,8 @@ createRoot(document.getElementById('root')!).render(
 		</ModalsProvider>
 	</MantineProvider>
 )
+
+// TEST
+import { Example } from "@app/common";
+let ex: Example = "";
+

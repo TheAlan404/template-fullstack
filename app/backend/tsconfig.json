@@ -1,9 +1,16 @@
 {
-    "extends": "../../tsconfig.base.json",
-    "include": [
-        "src/**/*"
-    ],
+  "extends": "../../tsconfig.json",
+  "include": [
+      "src/**/*"
+  ],
+  "references": [{ "path": "../common" }],
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true
+    "rootDir": "./src",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "allowArbitraryExtensions": true,
+    "allowImportingTsExtensions": true
   }
 }

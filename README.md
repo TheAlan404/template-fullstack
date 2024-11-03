@@ -15,3 +15,5 @@ my own Typescript Fullstack Workspace Template
   - `backend/`
     - import common
 
+Run `pnpm dev`/`npm run dev` on the backend or frontend to start developing (both has hot reload)
+

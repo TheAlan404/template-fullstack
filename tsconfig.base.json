@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "lib": ["ES2022"],
         /* Basic Options */
         "incremental": true,
         "declaration": true,
@@ -21,8 +22,5 @@
         "allowImportingTsExtensions": true,
         "jsx": "react-jsx",
         "esModuleInterop": true,
-        "paths": {
-            "@myddh/common": ["./app/common/src/index"]
-        },
     }
 }
